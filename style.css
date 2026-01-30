@@ -1,0 +1,126 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial;
+}
+
+body{
+  background:#000;
+  color:#fff;
+}
+
+/* HEADER BG */
+header{
+  height: 650px;
+  background-image: url(./img/026b441a88dfc0194633755f033f7f553dfded55.png); /* <<< fon rasm */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* NAV */
+nav{
+  background: black;
+  padding: 18px 0;
+}
+
+nav ul{
+  list-style:none;
+  text-align:center;
+}
+
+nav ul li{
+  display:inline-block;
+  margin: 0 45px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  font-weight:600;
+  font-size:14px;
+}
+
+/* CENTER BLOCK */
+.center{
+  width: 900px;
+  max-width: 95%;
+  margin: 0 auto;
+  margin-top: 170px;
+  text-align:center;
+}
+
+/* BUTTONS */
+.btns button{
+  width: 230px;
+  height: 65px;
+  border:none;
+  font-size:28px;
+  font-weight:900;
+  cursor:pointer;
+  margin: 0 35px;
+}
+
+.pc{
+  background:#f3b200;
+  color:#111;
+}
+
+.console{
+  background:#0b0b0b;
+  color:#fff;
+}
+
+/* TITLE BOX */
+.title-box{
+  margin-top: 25px;
+  background: rgba(243,178,0,0.55);
+  padding: 28px 35px;
+  text-align:left;
+}
+
+.title-box h1{
+  font-size:50px;
+  font-weight:900;
+}
+
+/* kichkina belgi */
+.mark{
+  width: 12px;
+  height: 22px;
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer{
+  background:#060606;
+  height: 90px;
+  padding: 0 70px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo{
+  width: 90px;
+}
+
+.icons img{
+  width: 26px;
+  margin-left: 18px;
+}
+button{
+    color: black;
+    background-color: #f3b200;
+}
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+a:hover{
+    color: red;
+}
+.title-box{
+  width: 900px;     /* yoki 100% */
+}
